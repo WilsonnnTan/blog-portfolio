@@ -1,83 +1,77 @@
-Glad you made it here! This is a flexible and feature-rich :link[Astro 5]{id=withastro/astro} theme for developers and creators, inspired by the minimalist style of :link[antfu.me]{id=https://antfu.me/ img=https://github.com/antfu.png .rounded}. The design has been refined and its functionality expanded for greater flexibility.
+Hey! I’m **Wilson Angelie Tan**, a Computer Science student at **Universitas Padjadjaran (UNPAD)** with a strong interest in **Software Engineering and System Design**.
 
-This live demo will guide you through setup and customization, offering helpful insights along the way. Enjoy exploring all the features this theme provides! ✨
+I enjoy turning ideas into practical systems, especially tools that improve productivity, learning, or decision-making. My focus is on building things that are understandable, maintainable, and useful.
 
-**Optimized Infrastructure**
+## What I Do
 
-- Zero UI Framework
-- [SEO-Friendly](./blog/faqs-and-known-issues/#about-seo-and-accessibility)
-- [Auto-Generated RSS Feed](./blog/faqs-and-known-issues/#rss-subscription-scope)
-- [Dynamic OG Image Generation](./blog/about-open-graph-images/)
-- [Subpath Deployment](./blog/basic-configuration/#configuring-site) Support
-- Optimized and Responsive Images
-- VS Code Snippets for Fast Coding
-- [Well-Structured Project](./blog/project-structure/)
-- High [Lighthouse Performance](./blog/faqs-and-known-issues/#lighthouse-scores)
+- **Software Development**  
+  Web applications, backend systems, and clean application architecture.
 
-**Content Management**
+- **AI & Systems Exploration**  
+  Learning and experimenting with AI-driven evaluation, automation, and data-driven features.
 
-- Markdown & MDX Support
-- [Math Equations Rendering](./blog/faqs-and-known-issues/#choosing-a-math-rendering-engine)
-- [Callouts (Alerts/Admonitions)](./blog/markdown-mdx-extended-features/#callouts-alerts--admonitions)
-- [Code Syntax Highlighting & Annotations](./blog/markdown-mdx-extended-features/#fully-featured-code-blocks)
-- Ready-To-Use [Remark Directives](./blog/markdown-mdx-extended-features/#image-caption--link-image)
-- Customizable Layouts, Views, and Navigation
-- [Configurable Animated Backgrounds](./blog/faqs-and-known-issues/#page-backgrounds) (Take a look around!)
-- [Showcase Your GitHub Releases and PRs](./blog/customizing-github-activity-pages)
-- [Highlight Your Creative Work or Curated Posts](./blog/recreating-current-pages/#highlights)
-- [Share Your Short Notes or Quick Thoughts](./blog/recreating-current-pages/#shorts)
-- [Create Your Personal Gallery](./blog/recreating-current-pages/#photos)
+- **Open Learning**  
+  I document what I learn through projects, experiments, and technical notes.
 
-**User Experience**
+## Current Interests
 
-- Responsive Layout
-- Full-Platform TOC Support
-- Light & Dark Modes Toggle
-- Smooth View Transitions
-- Loading Progress Indicator
-- [Search Functionality](./blog/faqs-and-known-issues/#search-functionality)
-- [Image Zoom Preview](./blog/faqs-and-known-issues/#image-zoom)
-- Social Media Sharing
-- [Integrated Giscus Comments](./blog/advanced-configuration/#configure-giscus-comments)
-- [Accessibility Enhancements](./blog/faqs-and-known-issues/#about-seo-and-accessibility)
-- Keyboard-Friendly
+- System design and software architecture
+- Engineering best practices and maintainable codebases
+- Cloud infrastructure, primarily AWS, for scalable and reliable systems
+- Open source projects
+- Building tools and utilities that help myself and others
 
-> [More features](https://github.com/users/lin-stephanie/projects/4) are continuously being added! 🚀
+## Projects
 
----
+You can find my projects here:
 
-<p>
-  Visit the theme's
-  <a
-    class="inline-block ml-1.5 op-75"
-    href="https://github.com/lin-stephanie/astro-antfustyle-theme"
-  >
-  <span i-simple-icons-github></span> GitHub repo</a>
-</p>
+→ **[Projects Page](/projects)**
 
-<p>
-  <span class="inline-block mr-1.5 mb-2">Find me on</span>
-  <span class="inline-flex flex-wrap gap-2 op-75">
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-simple-icons-github></span> GitHub</a>
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-ri-twitter-x-fill></span> Twitter</a>
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-simple-icons-instagram></span> Instagram</a>
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-simple-icons-mastodon></span> Mastodon</a>
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-simple-icons-youtube></span> YouTube</a>
+(Some projects are experimental and continuously evolving.)
+
+## Writing & Sharing
+
+Occasionally, I write short technical notes, project breakdowns, or reflections on what I’m learning—primarily focused on software engineering fundamentals.
+
+## Outside of Coding
+
+Outside of programming, I enjoy:
+- Learning new systems and tools
+- Exploring ideas around technology and education
+- Working on side projects that combine logic and creativity
+
+<br>
+<p class="op-75">
+  <span class="inline-block mr-2">Find me on</span>
+  <span class="inline-flex flex-wrap gap-x-3 gap-y-1">
+    <a href="https://github.com/WilsonnnTan">
+      <span i-simple-icons-github></span> GitHub
+    </a>
+    <!-- <a href="https://discord.gg/your-server">
+      <span i-simple-icons-discord></span> Discord Server
+    </a> -->
+    <a href="https://instagram.com/wilson.tnnn">
+      <span i-simple-icons-instagram></span> Instagram
+    </a>
   </span>
 </p>
 
+<p class="op-75 mt-3">
+  Or mail me at
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=wilsonangelietann@gmail.com">
+    wilsonangelietann@gmail.com
+  </a>
+</p>
+
+<p class="op-50 mt-2">
+  (Inactive on
+  <a href="https://x.com/Wilson159497231">
+    <span i-simple-icons-x></span> Twitter
+  </a>,
+  <a href="https://bsky.app/profile/wilsonnntan.bsky.social">
+    <span i-simple-icons-bluesky></span> Bluesky
+  </a>
+  )
+</p>
+
 ---
-
-If you find this theme helpful, consider supporting the project maintainer or the style designer. Your support means more than you know. Thank you! ❤️
-
-<div class="flex flex-wrap gap-4">
-  <a class="btn-rose" href="https://github.com/sponsors/lin-stephanie">
-    <span class="i-ph-heart-duotone"></span> Support Stephanie Lin (Maintainer)</a>
-  <a class="btn-yellow" href="https://github.com/sponsors/antfu">
-    <span class="i-ph-lightning-duotone"></span> Support Anthony Fu (Designer)</a>
-</div>

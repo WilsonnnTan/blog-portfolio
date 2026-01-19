@@ -1,12 +1,12 @@
 import type { Site, Ui, Features } from './types'
 
 export const SITE: Site = {
-  website: 'https://astro-antfustyle-theme.vercel.app/',
+  website: 'https://WilsonnnTan.vercel.app/',
   base: '/',
-  title: 'Astro AntfuStyle Theme',
+  title: 'Wilson Tan Portfolio',
   description:
-    'A customizable, feature-rich Astro theme for blog and portfolio creation',
-  author: 'Stephanie Lin',
+    'Wilson Tan Portfolio',
+  author: 'Wilson Tan',
   lang: 'en',
   ogLocale: 'en_US',
   imageDomains: ['cdn.bsky.app', 'images.unsplash.com'],
@@ -14,65 +14,53 @@ export const SITE: Site = {
 
 export const UI: Ui = {
   internalNavs: [
-    {
-      path: '/blog',
-      title: 'Blog',
-      displayMode: 'alwaysText',
-      text: 'Blog',
-    },
+    // {
+    //   path: '/blog',
+    //   title: 'Blog',
+    //   displayMode: 'alwaysText',
+    //   text: 'Blog',
+    // },
     {
       path: '/projects',
       title: 'Projects',
       displayMode: 'alwaysText',
       text: 'Projects',
     },
-    {
-      path: '/highlights',
-      title: 'Highlights',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Highlights',
-      icon: 'i-ri-screenshot-line',
-    },
-    {
-      path: '/photos',
-      title: 'Photos',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Photos',
-      icon: 'i-ri-camera-ai-line',
-    },
-    {
-      path: '/shorts',
-      title: 'Shorts',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Shorts',
-      icon: 'i-meteor-icons-grid',
-    },
-    {
-      path: '/changelog',
-      title: 'Changelog',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Changelog',
-      icon: 'i-ri-draft-line',
-    },
+    // {
+    //   path: '/highlights',
+    //   title: 'Highlights',
+    //   displayMode: 'iconToTextOnMobile',
+    //   text: 'Highlights',
+    //   icon: 'i-ri-screenshot-line',
+    // },
+    // {
+    //   path: '/photos',
+    //   title: 'Photos',
+    //   displayMode: 'iconToTextOnMobile',
+    //   text: 'Photos',
+    //   icon: 'i-ri-camera-ai-line',
+    // },
+    // {
+    //   path: '/shorts',
+    //   title: 'Shorts',
+    //   displayMode: 'iconToTextOnMobile',
+    //   text: 'Shorts',
+    //   icon: 'i-meteor-icons-grid',
+    // },
+    // {
+    //   path: '/changelog',
+    //   title: 'Changelog',
+    //   displayMode: 'iconToTextOnMobile',
+    //   text: 'Changelog',
+    //   icon: 'i-ri-draft-line',
+    // },
   ],
   socialLinks: [
     {
-      link: 'https://github.com/lin-stephanie/astro-antfustyle-theme',
-      title: 'AntfuStyle on Github',
+      link: 'https://github.com/WilsonnnTan',
+      title: 'Wilson Tan on Github',
       displayMode: 'alwaysIcon',
       icon: 'i-uil-github-alt',
-    },
-    {
-      link: 'https://x.com/astrodotbuild',
-      title: 'Astro on Twitter',
-      displayMode: 'alwaysIcon',
-      icon: 'i-ri-twitter-x-fill',
-    },
-    {
-      link: 'https://bsky.app/profile/astro.build',
-      title: 'Astro on Bluesky',
-      displayMode: 'alwaysIcon',
-      icon: 'i-meteor-icons-bluesky',
     },
   ],
   navBarLayout: {
