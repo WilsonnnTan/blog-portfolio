@@ -1,0 +1,45 @@
+---
+title: Tech Stack
+subtitle: Tools and technologies I work with
+description: Tools and technologies I work with
+bgType: dot
+toc: false
+ogImage: false
+---
+
+import BaseLayout from '~/layouts/BaseLayout.astro'
+import StandardLayout from '~/layouts/StandardLayout.astro'
+import GroupView from '~/components/views/GroupView.astro'
+import Link from '~/components/base/Link.astro'
+
+import { withBasePath } from '~/utils/path'
+
+<BaseLayout
+  title={frontmatter.title}
+  description={frontmatter.description}
+  bgType={frontmatter.bgType}
+  ogImage={frontmatter.ogImage}
+>
+  <StandardLayout
+    class="max-w-300"
+    title={frontmatter.title}
+    subtitle={frontmatter.subtitle}
+    isCentered={true}
+  >
+    <div slot="head" class="flex flex-wrap justify-center items-center gap-4">
+      <Link class="btn-blue" href="https://github.com/WilsonnnTan">
+        <span class="i-ph-github-logo-duotone"></span>
+        <span class="ml-1.5">Github</span>
+      </Link>
+      <Link class="btn-orange" href={withBasePath('/projects/')}>
+        <span class="i-ph-rocket-launch-duotone"></span>
+        <span class="ml-1.5">Projects</span>
+      </Link>
+      <Link class="btn-violet" href={withBasePath('/prs/')}>
+        <span class="i-lucide-git-pull-request"></span>
+        <span class="ml-1.5">Recent Pull Requests</span>
+      </Link>
+    </div>
+    <GroupView collectionType="techstack" pageToc={frontmatter.toc} />
+  </StandardLayout>
+</BaseLayout>

@@ -36,6 +36,19 @@ if (collectionType === 'projects') {
     }, {})
 }
 
+/* Tech Stack */
+if (collectionType === 'techstack') {
+  const techstack = await getCollection(collectionType)
+  isEmpty = techstack.length === 0
+
+  data = techstack
+    .map((p) => p.data)
+    .reduce((acc: Record<string, GroupItemData[]>, { category, ...rest }) => {
+      ;(acc[category] ??= []).push(rest)
+      return acc
+    }, {})
+}
+
 /* Toc */
 const { toc } = FEATURES
 const tocEnabled = Array.isArray(toc) && toc[0] && pageToc

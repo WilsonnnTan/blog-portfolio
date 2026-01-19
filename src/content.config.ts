@@ -12,6 +12,7 @@ import {
   projectSchema,
   streamSchema,
   photoSchema,
+  techStackSchema,
 } from '~/content/schema'
 
 const pages = defineCollection({
@@ -104,6 +105,11 @@ const feeds = defineCollection({
   }),
 })
 
+const techstack = defineCollection({
+  loader: file('./src/content/techstack/data.json'),
+  schema: techStackSchema,
+})
+
 export const collections = {
   pages,
   home,
@@ -116,4 +122,5 @@ export const collections = {
   changelog,
   streams,
   feeds,
+  techstack,
 }

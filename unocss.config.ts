@@ -10,6 +10,7 @@ import {
 
 import { UI } from './src/config'
 import projecstData from './src/content/projects/data.json'
+import techstackData from './src/content/techstack/data.json'
 
 import type {
   IconNavItem,
@@ -35,6 +36,7 @@ const socialIcons = socialLinks
   .map((item) => (item as IconSocialItem | ResponsiveSocialItem).icon)
 
 const projectIcons = projecstData.map((item) => item.icon)
+const techstackIcons = techstackData.map((item) => item.icon)
 
 const githubVersionColor: Record<string, string> = {
   major: 'bg-rose/15 text-rose-7 dark:text-rose-3',
@@ -124,6 +126,7 @@ export default defineConfig({
     ...navIcons,
     ...socialIcons,
     ...projectIcons,
+    ...techstackIcons,
 
     /* BaseLayout */
     'focus:not-sr-only',

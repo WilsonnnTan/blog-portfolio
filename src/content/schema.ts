@@ -144,7 +144,8 @@ export const projectSchema = z.object({
   link: z
     .string()
     .url('Invalid url.')
-    .describe('**Required**. URL linking to the project page or repository.'),
+    .describe('**Required**. URL linking to the project page or repository.')
+    .optional(),
   desc: z
     .string()
     .describe('**Required**. A brief description summarizing the project.'),
@@ -161,6 +162,32 @@ export const projectSchema = z.object({
 })
 
 export type ProjectSchema = z.infer<typeof projectSchema>
+
+/* Tech Stack */
+export const techStackSchema = z.object({
+  id: z.string().describe('**Required**. Name of the project to be displayed.'),
+  link: z
+    .string()
+    .url('Invalid url.')
+    .describe('**Required**. URL linking to the project page or repository.')
+    .optional(),
+  desc: z
+    .string()
+    .describe('**Required**. A brief description summarizing the project.')
+    .optional(),
+  icon: z
+    .string()
+    .regex(
+      /^i-[\w-]+(:[\w-]+)?$/,
+      'Icon must be in the format `i-<collection>-<icon>` or `i-<collection>:<icon>` as per [UnoCSS](https://unocss.dev/presets/icons) specs.'
+    )
+    .describe(
+      '**Required**. Icon representing the project. It must be in the format `i-<collection>-<icon>` or `i-<collection>:<icon>` as per [UnoCSS](https://unocss.dev/presets/icons) specs. [Check all available icons here](https://icones.js.org/).'
+    ),
+  category: z.string().describe('**Required**. Category of the project.'),
+})
+
+export type techStackSchema = z.infer<typeof techStackSchema>
 
 /* Photos */
 export const photoSchema = z.object({
