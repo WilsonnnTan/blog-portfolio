@@ -21,6 +21,12 @@ export const UI: Ui = {
     //   text: 'Blog',
     // },
     {
+      path: '/',
+      title: 'Home',
+      displayMode: 'alwaysText',
+      text: 'Home',
+    },
+    {
       path: '/projects',
       title: 'Projects',
       displayMode: 'alwaysText',
