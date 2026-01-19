@@ -38,6 +38,12 @@ export const UI: Ui = {
       displayMode: 'alwaysText',
       text: 'TechStack',
     },
+    {
+      path: '/resume',
+      title: 'Resume',
+      displayMode: 'alwaysText',
+      text: 'Resume',
+    },
     // {
     //   path: '/highlights',
     //   title: 'Highlights',
