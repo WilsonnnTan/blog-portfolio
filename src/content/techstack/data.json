@@ -1,13 +1,15 @@
 [
-  { "id": "JavaScript", "icon": "i-devicon-javascript", "category": "Language" },
-  { "id": "TypeScript", "icon": "i-devicon-typescript", "category": "Language" },
+  { "id": "C++", "icon": "i-devicon-cplusplus", "category": "Language" },
   { "id": "Python", "icon": "i-devicon-python", "category": "Language" },
   { "id": "Rust", "icon": "i-devicon-rust", "category": "Language" },
+  { "id": "JavaScript", "icon": "i-devicon-javascript", "category": "Language" },
+  { "id": "TypeScript", "icon": "i-devicon-typescript", "category": "Language" },
   { "id": "PHP", "icon": "i-devicon-php", "category": "Language" },
+  { "id": "HTML", "icon": "i-devicon-html5", "category": "Language" },
+  { "id": "CSS", "icon": "i-devicon-css3", "category": "Language" },
 
-  { "id": "HTML", "icon": "i-devicon-html5", "category": "Frontend" },
-  { "id": "CSS", "icon": "i-devicon-css3", "category": "Frontend" },
-  { "id": "React", "icon": "i-devicon-react", "category": "Frontend" },
+  { "id": "React", "icon": "i-devicon-react", "category": "Frontend Framework" },
+  { "id": "Astro", "icon": "i-devicon-astro", "category": "Frontend Framework" },
 
   { "id": "Express.js", "icon": "i-devicon-express", "category": "Backend Framework" },
   { "id": "FastAPI", "icon": "i-devicon-fastapi", "category": "Backend Framework" },
@@ -19,12 +21,18 @@
 
   { "id": "MySQL", "icon": "i-devicon-mysql", "category": "Database" },
   { "id": "PostgreSQL", "icon": "i-devicon-postgresql", "category": "Database" },
-  { "id": "Supabase", "icon": "i-devicon-supabase", "category": "Database" },
+  { "id": "MongoDB", "icon": "i-devicon-mongodb", "category": "Database" },
 
-  { "id": "AWS", "icon": "i-devicon-amazonwebservices", "category": "Cloud" },
+  { "id": "Prisma", "icon": "i-devicon-prisma", "category": "ORM" },
+  { "id": "SQLAlchemy", "icon": "i-devicon-sqlalchemy", "category": "ORM" },
 
-  { "id": "Vercel", "icon": "i-devicon-vercel", "category": "Deployment" },
-  { "id": "Railway", "icon": "i-devicon-railway", "category": "Deployment" },
+  { "id": "Supabase", "icon": "i-devicon-supabase", "category": "Database Service" },
+  { "id": "Railway DB", "icon": "i-devicon-railway", "category": "Database Service" },
+
+  { "id": "AWS", "icon": "i-devicon-amazonwebservices", "category": "Cloud Service" },
+
+  { "id": "Vercel", "icon": "i-devicon-vercel", "category": "Deployment Service" },
+  { "id": "Railway", "icon": "i-devicon-railway", "category": "Deployment Service" },
 
   { "id": "Git", "icon": "i-devicon-git", "category": "CI/CD & DevOps" },
   { "id": "Docker", "icon": "i-devicon-docker", "category": "CI/CD & DevOps" },
