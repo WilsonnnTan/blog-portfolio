@@ -1,7 +1,6 @@
 ---
 title: Projects
-subtitle: Tech Stack & Credits for the Astro AntfuStyle Theme
-description: Tech Stack & Credits for the Astro AntfuStyle Theme
+description: ""
 bgType: dot
 toc: true
 ogImage: true
@@ -27,9 +26,13 @@ import { withBasePath } from '~/utils/path'
     isCentered={true}
   >
     <div slot="head" class="flex flex-wrap justify-center items-center gap-4">
-      <Link class="btn-orange" href={withBasePath('/releases/')}>
+      <Link class="btn-blue" href="https://github.com/WilsonnnTan">
+        <span class="i-ph-github-logo-duotone"></span>
+        <span class="ml-1.5">Github</span>
+      </Link>
+      <Link class="btn-orange" href={withBasePath('/techstack/')}>
         <span class="i-ph-rocket-launch-duotone"></span>
-        <span class="ml-1.5">Latest Releases</span>
+        <span class="ml-1.5">Tech Stack</span>
       </Link>
       <Link class="btn-violet" href={withBasePath('/prs/')}>
         <span class="i-lucide-git-pull-request"></span>
