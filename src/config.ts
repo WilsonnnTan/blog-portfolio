@@ -74,6 +74,12 @@ export const UI: Ui = {
       displayMode: 'alwaysIcon',
       icon: 'i-uil-github-alt',
     },
+    {
+      link: 'https://mail.google.com/mail/?view=cm&fs=1&to=wilsonangelietann@gmail.com',
+      title: 'Email Wilson Tan',
+      displayMode: 'alwaysIcon',
+      icon: 'i-ic-outline-email',
+    },
   ],
   navBarLayout: {
     left: [],
