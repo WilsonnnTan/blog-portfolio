@@ -6,6 +6,19 @@
     "icon": "i-devicon-python",
     "category": "2024"
   },
+    {
+    "id": "Tetris Game",
+    "desc": "A simple offline Tetris game built in Java with a graphical user interface.",
+    "icon": "i-devicon-java",
+    "category": "2024"
+  },
+  {
+    "id": "Expense Tracker",
+    "desc": "A web-based expense tracking application developed using CodeIgniter 4.",
+    "link": "https://github.com/WilsonnnTan/Expense-Tracker-Web.git",
+    "icon": "i-devicon-php",
+    "category": "2024"
+  },
   {
     "id": "Discord AttendoBot",
     "link": "https://github.com/WilsonnnTan/AttendoBot.git",
@@ -18,6 +31,13 @@
     "link": "https://github.com/WilsonnnTan/Vehicle_Booking_App.git",
     "desc": "A vehicle booking system built with CI4",
     "icon": "i-devicon-php",
+    "category": "2025"
+  },
+  {
+    "id": "Data Mining with NLP",
+    "link": "https://github.com/WilsonnnTan/DataMining-NLP.git",
+    "desc": "A simple NLP-based project for analyzing YouTube comments.",
+    "icon": "i-devicon-python",
     "category": "2025"
   },
   {
