@@ -47,11 +47,18 @@
     "icon": "i-devicon-nextjs",
     "category": "2026"
   },
-    {
+  {
     "id": "win-context-image-converter",
     "link": "https://github.com/WilsonnnTan/win-context-image-converter.git",
     "desc": "A Windows tool that adds a right-click menu to convert images into different formats. (I❤️IMG copy)",
     "icon": "i-devicon-rust",
+    "category": "2026"
+  },
+  {
+    "id": "The-Intelligent-Data-Room",
+    "link": "https://the-intelligent-data-room.streamlit.app/",
+    "desc": "A multi-agent web application that allows users to upload data files and 'talk' to their data using natural language",
+    "icon": "i-devicon-python",
     "category": "2026"
   }
 ]
