@@ -4,8 +4,7 @@ export const SITE: Site = {
   website: 'https://WilsonnnTan.vercel.app/',
   base: '/',
   title: 'Wilson Tan Portfolio',
-  description:
-    'Wilson Tan Portfolio',
+  description: 'Wilson Tan Portfolio',
   author: 'Wilson Tan',
   lang: 'en',
   ogLocale: 'en_US',
@@ -14,12 +13,6 @@ export const SITE: Site = {
 
 export const UI: Ui = {
   internalNavs: [
-    // {
-    //   path: '/blog',
-    //   title: 'Blog',
-    //   displayMode: 'alwaysText',
-    //   text: 'Blog',
-    // },
     {
       path: '/',
       title: 'Home',
@@ -74,6 +67,12 @@ export const UI: Ui = {
     // },
   ],
   socialLinks: [
+    {
+      link: 'https://medium.com/@wilsonangelietann',
+      title: 'Blog',
+      displayMode: 'alwaysText',
+      text: 'Blog',
+    },
     {
       link: 'https://github.com/WilsonnnTan',
       title: 'Wilson Tan on Github',
