@@ -6,7 +6,7 @@
     "icon": "i-devicon-python",
     "category": "2024"
   },
-    {
+  {
     "id": "Tetris Game",
     "desc": "A simple offline Tetris game built in Java with a graphical user interface.",
     "icon": "i-devicon-java",
@@ -41,13 +41,6 @@
     "category": "2025"
   },
   {
-    "id": "Pocv",
-    "link": "https://github.com/piowsee-ai/pocv-web.git",
-    "desc": "AI-powered web platform to create and optimize professional résumés efficiently.",
-    "icon": "i-devicon-nextjs",
-    "category": "2026"
-  },
-  {
     "id": "win-context-image-converter",
     "link": "https://github.com/WilsonnnTan/win-context-image-converter.git",
     "desc": "A Windows tool that adds a right-click menu to convert images into different formats. (I❤️IMG copy)",
@@ -59,6 +52,26 @@
     "link": "https://the-intelligent-data-room.streamlit.app/",
     "desc": "A multi-agent web application that allows users to upload data files and 'talk' to their data using natural language",
     "icon": "i-devicon-python",
+    "category": "2026"
+  },
+  {
+    "id": "Piowsee",
+    "link": "https://piowsee.com/",
+    "desc": "Company Profile Website for Piowsee",
+    "icon": "i-devicon-nextjs",
+    "category": "2026"
+  },
+  {
+    "id": "Pocv (piowsee products)",
+    "link": "https://github.com/piowsee/pocv-web.git",
+    "desc": "AI-powered web platform to create and optimize professional résumés efficiently.",
+    "icon": "i-devicon-nextjs",
+    "category": "2026"
+  },
+  {
+    "id": "Pesan AI (piowsee products)",
+    "desc": "WhatsApp AI Agent platform with automated bot workflows and a web-based CRM dashboard, integrated with WhatsApp Cloud API.",
+    "icon": "i-devicon-nextjs",
     "category": "2026"
   }
 ]
